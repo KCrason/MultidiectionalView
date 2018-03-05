@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StockMultidirectionalView">
+        <attr name="isShowScrollFlag" format="boolean"/>
+        <attr name="scrollFlagDrawable" format="reference"/>
+        <attr name="stableHeaderIndicatorLayout" format="reference"/>
+        <attr name="listType" format="enum">
+            <enum name="listview" value="1"/>
+            <enum name="recyclerview" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

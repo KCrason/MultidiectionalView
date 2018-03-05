@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:text="股票名称"/>
+
+    <com.kcrason.multidiectionalviewlibrary.CustomHorizontalScrollView
+        android:id="@+id/custom_horizontal_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dip">
+
+            <TextView
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:gravity="center"
+                android:text="股票价格"/>
+
+            <TextView
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:gravity="center"
+                android:text="消息面"/>
+
+            <TextView
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:gravity="center"
+                android:text="时间"/>
+
+            <TextView
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:gravity="center"
+                android:text="封单量"/>
+
+            <TextView
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:gravity="center"
+                android:text="成交量"/>
+
+        </LinearLayout>
+    </com.kcrason.multidiectionalviewlibrary.CustomHorizontalScrollView>
+
+
+</LinearLayout>
